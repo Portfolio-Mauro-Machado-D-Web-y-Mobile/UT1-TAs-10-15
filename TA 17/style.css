@@ -1,0 +1,35 @@
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div {
+    width: 300px;
+    height: auto;
+    padding: 20px;
+    border-radius: 10%;
+    background-color: rgb(222, 90, 255);
+    position: relative;
+}
+
+img {
+    width: 50px;
+    height: auto;
+    position: absolute;
+    top:20px;
+    left: 20px;
+    border-radius: 50%;
+}
+
+.context {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
